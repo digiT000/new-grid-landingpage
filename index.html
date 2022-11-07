@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | News homepage</title>
+  <link rel="stylesheet" href="/style/styles.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img class="mainLogo" src="assets/images/logo.svg" alt="">
+      <!-- <ul>
+        <li><a href="" class="lintItem"></a></li>
+      </ul> -->
+      <div class="menuContainer">
+        <img src="assets/images/icon-menu.svg" alt="" aria-hidden="true">
+
+      </div>
+      <div class="listMenu">
+        <ul class="menu">
+          <li class="linkItem"><a href="#">Home</a></li>
+          <li class="linkItem"><a href="#">New</a></li>
+          <li class="linkItem"><a href="#">Popular</a></li>
+          <li class="linkItem"><a href="#">Trending</a></li>
+          <li class="linkItem mr-0"><a href="#">Categories</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="contentWrapper">
+      <div class="container">
+        <div class="heroWrapper">
+          <div class="heroItem">
+            <img class="heroImage-mob" src="assets/images/image-web-3-mobile.jpg" alt="" aria-hidden="true">
+            <img class="heroImage-desk" src="assets/images/image-web-3-desktop.jpg" alt="" aria-hidden="true">
+          </div>
+          <div class="heroItem grid-50">
+            <div class="sectionHeader">
+              <h1 class="mainText mb-16 mt-16"> The Bright Future of Web 3.0?</h1>
+            </div>
+            <div class="sectionContent">
+              <p class="secondaryText mt-16">We dive into the next evolution of the web that claims to put the power of
+                the
+                platforms back into the
+                hands of the people.But is it really fulfilling its promise?</p>
+              <button class="primaryBtn mt-20" type="submit">READ MORE</button>
+            </div>
+
+          </div>
+        </div>
+        <div class="articleWrapper mt-60 mt-0">
+          <div class="container bg-dark py-24 px-20 grid-100 h-100">
+            <div class="articleItem">
+              <h2 class="textOrange">New</h2>
+            </div>
+            <div class="articleItem mt-20">
+              <a class="linkArticle" href="#">
+                <h3>Hydrogen VS Electric Cars</h3>
+              </a>
+              <p class="mt-8">
+                Will hydrogen-fueled cars ever catch up to EVs?
+              </p>
+              <hr class="mt-32" bg-darkBlue" style="opacity: 0.50;">
+            </div>
+            <div class="articleItem mt-20">
+              <a class="linkArticle" href="#">
+                <h3>The Downsides of AI Artistry</h3>
+              </a>
+              <p class="mt-8">
+                What are the possible adverse effects of on-demand AI image generation?
+              </p>
+              <hr class="mt-32 bg-darkBlue" style="opacity: 0.50;">
+            </div>
+            <div class="articleItem mt-20">
+              <a class="linkArticle" href="#">
+                <h3>Is VC Funding Drying Up?</h3>
+              </a>
+              <p class="mt-8">
+                Private funding by VC firms is down 50% YOY. We take a look at what that means.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contentWrapper">
+      <div class="container mt-60 grid-33">
+        <div class="listItem">
+          <div class="listImg"><img src="assets/images/image-retro-pcs.jpg" alt="retro pc" aria-hidden="true"></div>
+          <div class="listContent">
+            <h2 class="secondaryText" style="opacity: 0.5 ;">01</h2>
+            <h3 class="mainText mt-8">Reviving Retro PCs</h3>
+            <p class="secondaryText mt-8">What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+        <div class="listItem mx-20 mx-0">
+          <div class="listImg"><img src="assets/images/image-top-laptops.jpg" alt="top laptop" aria-hidden="true">
+          </div>
+          <div class="listContent">
+            <h2 class="secondaryText" style="opacity: 0.5 ;">02</h2>
+            <h3 class="mainText mt-8">Top 10 Laptops of 2022</h3>
+            <p class="secondaryText mt-8">Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+        <div class="listItem">
+          <div class="listImg"><img src="assets/images/image-gaming-growth.jpg" alt=""></div>
+          <div class="listContent">
+            <h2 class="secondaryText" style="opacity: 0.5 ;">03</h2>
+            <h3 class="mainText mt-8">The Growth of Gaming</h3>
+            <p class="secondaryText mt-8 ">How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="contentWrapper mt-40">
+      <!-- <div class="container bg-dark py-24 px-20">
+          <div class="articleItem">
+            <h2 class="textOrange">New</h2>
+          </div>
+          <div class="articleItem mt-20">
+            <h3>Hydrogen VS Electric Cars</h3>
+            <p class="mt-8">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+            <hr class="mt-32" bg-darkBlue" style="opacity: 0.50;">
+          </div>
+          <div class="articleItem mt-20">
+            <h3>The Downsides of AI Artistry</h3>
+            <p class="mt-8">
+              What are the possible adverse effects of on-demand AI image generation?
+            </p>
+            <hr class="mt-32 bg-darkBlue" style="opacity: 0.50;">
+          </div>
+          <div class="articleItem mt-20">
+            <h3>Is VC Funding Drying Up?</h3>
+            <p class="mt-8">
+              Private funding by VC firms is down 50% YOY. We take a look at what that means.
+            </p>
+          </div>
+        </div> -->
+    </div>
+  </main>
+
+
+</body>
+
+</html>
